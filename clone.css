@@ -1,0 +1,133 @@
+body {
+	margin:0;
+	font-family:"Lucida Grande";
+}
+a {
+	text-decoration: none;
+}
+.container {
+	max-width: 100%;
+	height: auto;
+	padding: 0 15px;
+	margin:0 auto;
+}
+.top-part{
+	padding: 180px 0 100px 0;
+	background-image: url(guitar-shaped-island-wallpapers_19110_1920x1200.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	color: white;
+	text-align:center;
+}
+
+.top-part h1 {
+  font-size: 75px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  margin-top:0;
+  text-align:center;
+}
+.top-part h3 {
+	width:980px;
+	font-weight:bold;
+	margin-bottom:0;
+	text-align:center;
+}
+
+.top-part p {
+	font-weight:bold;
+	margin-bottom: 3px;
+	font-size:20spx;
+	text-align:center;
+}
+.learn-btn {
+	 margin: 20px 0;
+}
+.btn {
+  padding: 12px 80px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 25px;
+  font-weight:bold;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.learn {
+	background-color:#ADFF2F;
+}
+
+header{
+	height: 65px;
+	width: 100%;
+	background-color: transparent;
+	position:fixed;
+	top:0;
+	z-index:10;
+}
+.nav-logo{
+	float:left;
+}
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+.nav-menu{
+	float: right;
+	background-color: rgba(255, 255, 255, 0.1);
+	transition: all 0.5s;
+}
+.nav-menu:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.nav-menu ul li {
+	display:inline;
+	padding:20px 20px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.nav-menu a {
+  line-height: 5px;
+  color: white;
+  
+}
+.text-part{
+	margin:0px;
+	padding-top:10px;
+	background-color:#C0C0C0;
+	text-align:center;
+	color:#C0C0C0;
+	font-weight:bold;
+}
+.text-part p {
+	padding-left:35% ;
+	padding-right:35.3%;
+	width:400px;
+}
+.icons{
+	float: left;
+	width: 32.3%;
+	text-align:center;
+	margin-top:40px;
+	background-color:white;
+	border-right: 1px solid grey;
+}
+.icon-tabs{
+	position:relative;
+	
+}
+.icon-tabs p{
+	top: 90px;
+	width: 50%;
+	padding-left:25%;
+	padding-right:25%;
+	color: grey;
+	text-align:center;
+	border-right-color:lightgrey;
+}
+.icons a{
+	color:#ADFF2F;
+	padding-top:2px;
+}
